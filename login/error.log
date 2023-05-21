@@ -1,0 +1,124 @@
+PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:107
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(107): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(60): UserLogic::getUserByEmail('testtest@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('testtest@test', 'ss')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:107
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(107): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(60): UserLogic::getUserByEmail('shonsuke@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('shonsuke@test', 'shonsukeDa')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:107
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(107): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(60): UserLogic::getUserByEmail('shonsuke@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('shonsuke@test', 'shonsukeDa')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:107
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(107): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(60): UserLogic::getUserByEmail('testtest@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('testtest@test', 'g')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:33
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(33): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\public\register.php(43): UserLogic::createUser(Array)
+#2 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:118
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(118): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(71): UserLogic::getUserByEmail('test@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('test@test', 'testsimasu')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:118
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(118): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(71): UserLogic::getUserByEmail('shonsuke@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('shonsuke@test', 'shonsukeDa')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:118
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(118): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(71): UserLogic::getUserByEmail('shonsuke@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('shonsuke@test', 'shonsukeDa')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:118
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(118): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(71): UserLogic::getUserByEmail('shonsuke@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('shonsuke@test', 'shonsukeDa')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:118
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(118): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(71): UserLogic::getUserByEmail('shonsuke@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('shonsuke@test', 'shonsukeDa')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:118
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(118): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(71): UserLogic::getUserByEmail('shonsuke@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('shonsuke@test', 'shonsukeDa')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:118
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(118): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(71): UserLogic::getUserByEmail('shonsuke@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('shonsuke@test', 'fef')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:119
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(119): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(72): UserLogic::getUserByEmail('shonsuke@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('shonsuke@test', 'fefefefefe')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:120
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(120): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(71): UserLogic::getUserByEmail('shonsuke@test')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('shonsuke@test', 'fefefefe')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:120
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(120): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(71): UserLogic::getUserByEmail('fefefef@fegege')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('fefefef@fegege', 'fefefefef')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\login\classes\UserLogic.php:107
+Stack trace:
+#0 C:\xampp\htdocs\login\classes\UserLogic.php(107): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\login\classes\UserLogic.php(60): UserLogic::getUserByEmail('fefefef@fegege')
+#2 C:\xampp\htdocs\login\public\login.php(29): UserLogic::login('fefefef@fegege', 'htjcjthcjtc')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\instaself\login\classes\UserLogic.php:107
+Stack trace:
+#0 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(107): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(60): UserLogic::getUserByEmail('shonsuke@test')
+#2 C:\xampp\htdocs\instaself\login\public\login.php(29): UserLogic::login('shonsuke@test', 'ddddd')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\instaself\login\classes\UserLogic.php:116
+Stack trace:
+#0 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(116): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(69): UserLogic::getUserByEmail('testtest@test')
+#2 C:\xampp\htdocs\instaself\login\public\login.php(29): UserLogic::login('testtest@test', 'testtest')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\instaself\login\classes\UserLogic.php:116
+Stack trace:
+#0 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(116): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(69): UserLogic::getUserByEmail('inoueshoei.313....')
+#2 C:\xampp\htdocs\instaself\login\public\login.php(29): UserLogic::login('inoueshoei.313....', 'InoSho9720')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\instaself\login\classes\UserLogic.php:116
+Stack trace:
+#0 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(116): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(69): UserLogic::getUserByEmail('inoueshoei.313....')
+#2 C:\xampp\htdocs\instaself\login\public\login.php(29): UserLogic::login('inoueshoei.313....', 'HrHr2098')
+#3 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\instaself\login\classes\UserLogic.php:116
+Stack trace:
+#0 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(116): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(69): UserLogic::getUserByEmail('testtest@test')
+#2 C:\xampp\htdocs\instaself\login\public\login.php(29): UserLogic::login('testtest@test', 'testtest')
+#3 {main}PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'testtest@test' for key 'email' in C:\xampp\htdocs\instaself\login\classes\UserLogic.php:48
+Stack trace:
+#0 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(48): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\instaself\login\public\register.php(43): UserLogic::createUser(Array)
+#2 {main}PDOException: SQLSTATE[HY000] [2002] 対象のコンピューターによって拒否されたため、接続できませんでした。 in C:\xampp\htdocs\instaself\login\classes\UserLogic.php:116
+Stack trace:
+#0 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(116): PDO->__construct('mysql:host=loca...', 'shonsuke', 'shonsukeDayo', Array)
+#1 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(69): UserLogic::getUserByEmail('shonsuke@testda')
+#2 C:\xampp\htdocs\instaself\login\public\login.php(29): UserLogic::login('shonsuke@testda', 'testdayo')
+#3 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@haaa' at line 1 in C:\xampp\htdocs\instaself\login\classes\UserLogic.php:105
+Stack trace:
+#0 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(105): PDOStatement->execute()
+#1 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(58): UserLogic::getUserByEmail('wakaran@haaa')
+#2 C:\xampp\htdocs\instaself\login\public\login.php(25): UserLogic::login('wakaran@haaa', 'wakaran')
+#3 {main}PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'email' in 'where clause' in C:\xampp\htdocs\instaself\login\classes\UserLogic.php:105
+Stack trace:
+#0 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(105): PDOStatement->execute()
+#1 C:\xampp\htdocs\instaself\login\classes\UserLogic.php(58): UserLogic::getUserByEmail('wakaran@haaa')
+#2 C:\xampp\htdocs\instaself\login\public\login.php(25): UserLogic::login('wakaran@haaa', 'wakaran')
+#3 {main}
